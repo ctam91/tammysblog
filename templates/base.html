@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <html>
+    <!--Header-->
+    <head>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Happy+Monkey" />
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <meta charset="utf-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    </head>
+</html>
+
+<!-- End Header-->
+
+<!--Navigation bar-->
+<nav class="navbar navbar-default navbar-fixed-top topnav navbar-custom" role="navigation">
+     <div class="container-fluid">
+       <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" style="color:green; font-family: dancing script;">Tammy Chang</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+       </div>
+     </div>
+  </nav>
+<!--End navigation bar-->
+
+<!--Start contact section-->
+
+<section id="home" style="background-image: url(static/img/grass.jpg)">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 block2">
+        <h1 style="font-family:dancing script; text-align:center;"> Tammy Chang </h1>
+        <hr style="width:60%;">
+        <h3 style="text-align:center; font-family:happy monkey;"> Front End Developer I Technology Enthusiast I Houston, TX</h3>
+      </div>
+    </div>
+</section>
+<!--End home section-->
+
+<!--About section with photo-->
+
+
+<section id="about">
+  <div class="container-fluid">
+        <div class="row">
+      <div class="col-xs-12">
+        <h2>About Me:</h2>
+        <hr class="underline">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-8">
+        <p> Hello and welcome to my website! I'm a self-taught web developer living in Houston, TX. My interest with coding began in high school when I experimented with blog layouts for friends and family. </p>
+         <p> I'm currently in the progress of earning my Front End Development Certificate from Free Code Camp. I have a solid understanding of HTML and CSS, and am working on building proficiency with JavaScript. My portfolio section will be updated along the way to demonstrate my learning and showcase the projects that I complete.
+          </p>
+            <p>In my spare time, I enjoy hiking, jogging, cooking, learning new things, and playing games such as sudoku and Xenoblade Chronicles X.</p>
+      </div>
+      <div class="col-xs-4 text-center">
+        <p><img class="img-circle img-responsive img-thumbnail" src="static/img/tammy.jpg"></p>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!--End about section with photo-->
+
+<!-- start portfolio section-->
+
+
+<section id="portfolio">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Portfolio:</h2>
+          <hr class="underline">
+        <p> Here is a collection of my ongoing projects. You can click "edit on codepen" to see each app in full screen and to look through the code.</p>   
+      </div>
+      <div class="col-xs-4">
+            <a href="https://codepen.io/ctam91/full/RRGmaa/"><img class="img-responsive img-border" src="https://s32.postimg.org/64hc38xed/tan.png" alt="Amy Tan"></a>
+      </div>
+     <div class="col-xs-4">
+          <img class="img-responsive" src="https://s31.postimg.org/jfq95xxaz/coming_soon_logo_0_0.png" alt="Project Two">
+      </div>
+           <div class="col-xs-4">
+          <img class="img-responsive" src="https://s31.postimg.org/jfq95xxaz/coming_soon_logo_0_0.png" alt="Project Three">
+      </div>
+    </div>
+  </div>
+  </section>
+<!--End portfolio section-->
+
+<!--Start contact section-->
+<section id="contact">
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-xs-12 ">
+        <h2> Contact:</h2>
+                  <p style="color:black; font-weight:bold; padding-top:10px;"> Email me at     <a href="mailto:ctam91@gmail.com?Subject=Hello%20again">ctam91@gmail.com</a> or find me on Social Media!</p>
+        <div class="btnlist">
+          <a href="https://github.com/ctam91"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-black/512/github-64.png"></a>
+          <a href="https://tammychang247.wordpress.com/"><img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/26-wordpress-64.png"></a>
+          <a href="https://www.instagram.com/_tammychang/"><img src="https://cdn4.iconfinder.com/data/icons/miu/24/circle_social-instagram-outline-stroke-64.png"></a>
+
+          <a href="https://www.yelp.com/user_details?userid=gKLoooT8fVDuyT957Vux6A"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-black/512/yelp-64.png"></a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <footer>
+    <p style="color:black; font-size:10px; text-align:center; margin-top:50px; margin-bottom:-25px;"> Coded and Written by<a href="https://codepen.io/ctam91/"> Tammy Chang.</a></p>
+  </footer>
+</section>
+
+<!--End contact section-->
