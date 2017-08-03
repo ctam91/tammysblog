@@ -70,7 +70,7 @@ body{
 }
 h1{
   font-size:90px;
-  text-shadow:3px 3px 10px black;
+  text-shadow:3px 3px 10px white;
 }
 
 h2 {
@@ -127,3 +127,8 @@ float: left;
   font-size: 0.75em;
   color: black;
 }
+
+.jumbotron {
+    background-size: cover;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  <html>
+    <!--Header-->
+    <head>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/mainpage.css') }}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tammy's Blog</title> 
+    </head>
+    
+    <body>
+        <nav>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Back to Portfolio</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        
+    {% block content %}
+    {% endblock %}
+    </body>
+
+    </html>
