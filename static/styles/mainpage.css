@@ -135,7 +135,6 @@ h1.mheader {
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
-      position: fixed;
   }
 
   .navbar {
@@ -160,8 +159,16 @@ h1.mheader {
     font-family: dancing script;
   }
 
-.img-fluid {
-  max-width: 30rem;
-  max-height: 30rem;
+.img-profile {
+  max-width: 25rem;
+  max-height: 25rem;
 }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
 
