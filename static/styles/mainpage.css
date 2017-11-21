@@ -20,10 +20,9 @@
  padding-top:40px;
   padding-bottom:100px;
 background-color: white;
-  color: black;
+  color:#868e96;
   background-size:cover; 
   padding-left:20px;
-  font-size:24px;
 }
 
 #contact{
@@ -136,7 +135,6 @@ h1.mheader {
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
-      padding-top: 70px;
   }
 
   .navbar {
@@ -148,15 +146,9 @@ h1.mheader {
       letter-spacing: 5px;
       padding-top: 15px;
       padding-bottom: 15px;
+      margin-bottom: 0 !important;
       color: #fff;
 
-     /* padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-
-      */
   }
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
@@ -166,3 +158,9 @@ h1.mheader {
     color:green; 
     font-family: dancing script;
   }
+
+.img-fluid {
+  max-width: 30rem;
+  max-height: 30rem;
+}
+
