@@ -1,8 +1,4 @@
-.nav{
- font-size:18px;
-  color:black;
 
-}
 #home{
     padding-top: 100px;
     padding-bottom: 220px;
@@ -68,10 +64,6 @@ body{
 .img-border{
   border: solid 2px black;
 }
-h1{
-  font-size:90px;
-  text-shadow:3px 3px 10px white;
-}
 
 h2 {
   color:#1f1f2e; 
@@ -132,3 +124,45 @@ float: left;
     background-size: cover;
 }
 
+h1.mheader {
+  font-family:dancing script; 
+  text-align:center; 
+  color:white;
+  font-size:70px;
+  text-shadow:3px 3px 10px;
+}
+
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+      padding-top: 70px;
+  }
+
+  .navbar {
+      overflow: hidden;
+      position: fixed; /* Set the navbar to fixed position */
+      top: 0; /* Position the navbar at the top of the page */
+      width: 100%; /* Full width */
+      font-size: 12px;
+      letter-spacing: 5px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: #fff;
+
+     /* padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+
+      */
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  .title {
+    color:green; 
+    font-family: dancing script;
+  }

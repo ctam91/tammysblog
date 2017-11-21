@@ -1,20 +1,22 @@
 {% extends "blog_base.html" %}
 
 {% block content %}
-    <div class="container">
-        <h1>My Blog</h1>
-    </div>
+
+<div class="container">
+    <h2>New Post</h2>
+</div>
+
+<form method='post'>
     <div class = "container">
-        <form method='post'>
-            <label>Title for your new blog:</label>
-            <input class='table' type='text' name='title' value='{{ title }}' />
-
-            <label>Your New Blog:</label>
-                <textarea class='table' name="body">{{ body }}</textarea>
-            <input type="submit" value='Publish' />
-        </form>
+        <label>Title for your new blog:</label>
+        <input class='table' type='text' name='title' value='{{ title }}' />
     </div>
-
+    <div class="container">
+        <label>Your New Entry:</label>
+            <textarea class='table' name="body">{{ body }}</textarea>
+        <input type="submit" value='Publish' />
+    </div>
+</form>
 
 
 {% endblock %}
