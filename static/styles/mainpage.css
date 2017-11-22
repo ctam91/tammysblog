@@ -60,7 +60,6 @@ section{
   background-color: white;
   background-size:cover; 
   padding-left:20px;
-  height: 100vh;
 }
 
 #portfolio, p{
@@ -73,8 +72,6 @@ section{
   background: #E5E4E2;
   background-size:cover;
   text-align: center;
-  height: 100vh;
-
 }
 
 
