@@ -146,10 +146,7 @@ float: left;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    font-size: 12px;
-    letter-spacing: 5px;
     margin-bottom: 0 !important;
-    color: #fff;
 }
 
 .navbar-nav  li a:hover {
