@@ -10,7 +10,7 @@ h1.mheader {
   text-align:center; 
   color:white;
   font-size:70px;
-  text-shadow:3px 3px 10px;
+  text-shadow:3px 3px 10px black;
 }
 
 h2 {
@@ -180,5 +180,9 @@ float: left;
   color:white;
 }
 
+.title{
+  color:green !important; 
+  font-family: dancing script;
+}
 
 
