@@ -3,11 +3,6 @@
 {% block content %}
         <h2 style="text-align: center;">Tammy's Blog</h2>
         <div class="container">
-            <div class='jumbotron'>
-            <img class="img-responsive" src ='static/img/brycecanyon.jpg'>
-            </div>
-        </div>
-        <div class="container">
             {% for title in titles %}
             <a href="/blog?id={{title.id}}"><p><h2>{{ title.title }}</h2></p></a>
             <p>{{ title.pub_date }}</p>
