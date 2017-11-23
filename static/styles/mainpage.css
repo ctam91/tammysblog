@@ -72,6 +72,7 @@ section{
   background: #E5E4E2;
   background-size:cover;
   text-align: center;
+  font-family: Cambria, serif;
 }
 
 
@@ -193,4 +194,9 @@ float: left;
     transform: translateX(-50%) translateY(-50%);
 }
 
-
+.custom-footer{
+  font-size:10px; 
+  text-align:center; 
+  margin-top:50px; 
+  margin-bottom:-25px;
+}
