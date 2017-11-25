@@ -1,7 +1,6 @@
 body{
-  color:white;
-  font-family:cambria;
-  font: 20px Montserrat, sans-serif;
+  color: #868e96;
+  font-family:cambria !important;
   line-height: 1.8;
 }
 
@@ -48,7 +47,6 @@ section{
   padding-bottom:100px;
   background-size:cover;
   background-color: white; 
-  color: black;
   padding-left:20px; 
   font-size: 24px;
   height: 100vh;
