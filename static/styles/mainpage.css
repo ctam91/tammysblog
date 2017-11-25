@@ -15,8 +15,8 @@ h1.mheader {
 h2 {
     font-family: 'Saira Extra Condensed',serif;
     font-weight: 700;
-    text-transform: uppercase;
-    color: #343a40;
+    margin-bottom: 2rem !important;
+    color:black !important;
 }
 
 h3{
