@@ -25,6 +25,10 @@ h3{
 
 }
 
+h4{
+  font-weight: bold !important;
+}
+
 form{
   color:black;
   width:100px;
