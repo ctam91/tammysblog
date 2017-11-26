@@ -129,12 +129,6 @@ float: left;
   border: solid 2px black;
 }
 
-.underline{
-  max-width: 97%;
-  margin: 0 0 20px 0; 
-  border: 1px forestgreen solid; 
-}
-
 .btnlist{
   font-size: 18px;
   text-align: center;
