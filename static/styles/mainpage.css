@@ -163,6 +163,12 @@ section{
   max-height: 20rem;
 }
 
+.img-button{
+    max-height: 7rem;
+    max-width: 8rem;
+    margin: 0.5rem;
+}
+
 .p-box{
   max-width: 90%;
   height: auto;
