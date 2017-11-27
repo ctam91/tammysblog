@@ -6,7 +6,7 @@ from hashutils import make_pw_hash, check_pw_hash
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://zvuirkakufqxjv:b51d1522d2b84250a368df5e5089e24af06dcddd9791c449f4ea31c07a8de964@ec2-54-83-28-144.compute-1.amazonaws.com:5432/deem7qfpn7d714'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/mydatabasename'
 #app.config['SQLALCHEMY_ECHO'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
@@ -32,7 +32,7 @@ class Blog(db.Model):
 #create a User class with id, username, password, and blogs columns. 'blogs' links to Blogs table. 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(120), unique=True)
+    username = db.Column(db.String(80), unique=True)
     pw_hash = db.Column(db.String(120))
     blogs = db.relationship('Blog', backref='owner')
 
