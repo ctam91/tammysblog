@@ -1,12 +1,13 @@
 from datetime import datetime
-from flask import Flask, request, redirect, render_template, session, flash
-from flask_sqlalchemy import SQLAlchemy
-from hashutils import make_pw_hash, check_pw_hash
 
+from flask import Flask, flash, redirect, render_template, request, session
+
+from flask_sqlalchemy import SQLAlchemy
+from hashutils import check_pw_hash, make_pw_hash
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://username:password@localhost/mydatabasename'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://zvuirkakufqxjv:b51d1522d2b84250a368df5e5089e24af06dcddd9791c449f4ea31c07a8de964@ec2-54-83-28-144.compute-1.amazonaws.com:5432/deem7qfpn7d714'
 #app.config['SQLALCHEMY_ECHO'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app)
