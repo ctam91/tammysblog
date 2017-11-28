@@ -2,7 +2,7 @@ from datetime import datetime
 
 from flask import Flask, flash, redirect, render_template, request, session
 
-from Flask_SQLAlchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from hashutils import check_pw_hash, make_pw_hash
 
 
