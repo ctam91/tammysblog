@@ -5,6 +5,7 @@ from flask import Flask, flash, redirect, render_template, request, session
 from flask_sqlalchemy import SQLAlchemy
 from hashutils import check_pw_hash, make_pw_hash
 
+#Todo: connect local db with heroku db
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
